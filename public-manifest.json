@@ -1,0 +1,88 @@
+{
+  "created_at_utc": "2026-10-03T09:45:01.507638+00:00",
+  "author": "Gaviate",
+  "kind": "source_only_functional_review_package",
+  "external_actions": [],
+  "source_local_manifest_sha256": "ce2778034e6df8154bcbc8d3307a66b49af942c7781fa938112587d238980eaa",
+  "prior_poppler_author": "hawkeye0386",
+  "prior_poppler_mr": "https://gitlab.freedesktop.org/poppler/poppler/-/merge_requests/2366",
+  "main_viewer_cases": 4,
+  "main_repeated_cycles": 12,
+  "additional_final_cleanup_cycles": 3,
+  "receipt_redaction": "Whitelist kept outcomes, cycle details and hashes; omitted absolute paths, process IDs, profile details, raw logs and private data. Raw receipt digests retained for linkage.",
+  "harness_packaging_delta": "Public copy configures Python executable via a parameter; original attribution comment shortened. Functional predicates and fixtures unchanged. No test rerun warranted or claimed for packaging changes.",
+  "artifacts": [
+    {
+      "path": "COPYING-original-validation.txt",
+      "bytes": 18326,
+      "sha256": "9f2e250993c6206fac643824e05e5a0d7d3e0895d9e09a5ce4b12bc2610afc11"
+    },
+    {
+      "path": "harness/component/CMakeLists.txt",
+      "bytes": 421,
+      "sha256": "7a36feef54ebf3d67ee627b85cbc4cb67a861a45f4ccb3c15f731dd5f1cec191"
+    },
+    {
+      "path": "harness/component/regression.cpp",
+      "bytes": 4725,
+      "sha256": "403080885c6564cc8bc73cb4b7fa04bd00ca291c4f173f0042670642f61ddf0c"
+    },
+    {
+      "path": "harness/component/support/config.h",
+      "bytes": 13,
+      "sha256": "b3adf106d95b8934f690943f2921308b90be5b766c4c8ba250c792de56400201"
+    },
+    {
+      "path": "harness/component/support/poppler_private_export.h",
+      "bytes": 44,
+      "sha256": "c214dcd96cb3cd9d4c11b98ba8f345cb3d3219902117e58917c411fdc4b136b7"
+    },
+    {
+      "path": "harness/fixture_pdf.py",
+      "bytes": 1562,
+      "sha256": "6ac08f0c927f78f8e64be9e400113fb833ca4fc11a82214a9e99a2b81aed1e2d"
+    },
+    {
+      "path": "harness/viewer-reload-regression.ps1",
+      "bytes": 11635,
+      "sha256": "b54f53e500ca9c79e5b1a1f64a8b9209a7037ee5b7249d152d93474b8e5d1b62"
+    },
+    {
+      "path": "kcoreaddons-wide-stat-6.30.0.patch",
+      "bytes": 3615,
+      "sha256": "429c63fd03d3cde7a6c58e47bf56ca8f9ddc3e4dbc90c2a577624ca9d55a3538"
+    },
+    {
+      "path": "kcoreaddons-wide-stat-current-master.patch",
+      "bytes": 3615,
+      "sha256": "429c63fd03d3cde7a6c58e47bf56ca8f9ddc3e4dbc90c2a577624ca9d55a3538"
+    },
+    {
+      "path": "LICENSE-original-validation.txt",
+      "bytes": 1447,
+      "sha256": "17ca567983a8593f7c29e35e738e8b15aa0f2e3a5c8917a16ee453bbe2d8ad3f"
+    },
+    {
+      "path": "poppler-share-delete-26.07.0-credited.patch",
+      "bytes": 1213,
+      "sha256": "283d47e96d35f0f1e53f2462370b8753be210f353c35051fd60304affae197ec"
+    },
+    {
+      "path": "poppler-share-delete-current-master-credited.patch",
+      "bytes": 1213,
+      "sha256": "283d47e96d35f0f1e53f2462370b8753be210f353c35051fd60304affae197ec"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 6510,
+      "sha256": "310337bc279675ae34e7431d426d1f885cb02efd75b6482b5364a8febfd735d1"
+    },
+    {
+      "path": "results/redacted-functional-results.json",
+      "bytes": 38634,
+      "sha256": "9c7d000893c84c908ed5e8d688caa77764c6b531088549d0de65bbd26be4ab87"
+    }
+  ],
+  "cash_received": 0,
+  "cash_owed": 0
+}

@@ -1,0 +1,25 @@
+The original validation code listed below is made available under
+GPL-2.0-or-later. Attribution: Gaviate.
+
+This grant covers component/regression.cpp, fixture_pdf.py,
+viewer-reload-regression.ps1, viewer-baseline.ps1,
+run-combined-viewer-control.ps1, run-kdirwatch-regression.ps1,
+build-kcoreaddons.ps1, build-poppler-viewer.ps1, build-poppler-nightly.ps1,
+build-poppler.ps1, compare_abi.py, capture_source.py, inspect-nightly.ps1,
+and assemble_review.py. The full GNU GPL version 2 text is supplied as
+COPYING-original-validation.txt. A later GPL version may be selected.
+
+The validation harness was written for this task; no code was copied from
+hawkeye0386/bounty-validation. The two FILE_SHARE_DELETE additions were
+previously contributed by hawkeye0386 in Poppler merge request !2366:
+https://gitlab.freedesktop.org/poppler/poppler/-/merge_requests/2366
+That prior implementation and discovery must retain their attribution.
+
+Upstream source retains its original licenses: Poppler goo/gfile.cc is
+GPL-2.0-or-later; KCoreAddons src/lib/io/kdirwatch.cpp is LGPL-2.0-only;
+its autotest is LGPL-2.0-or-later. The KCoreAddons changes follow those
+existing file licenses. SDKs, vendor dependencies, and official binary
+distributions retain their own licenses and are excluded from this grant.
+
+The included original component CMakeLists.txt and support/config.h and
+support/poppler_private_export.h are also covered by this GPL-2.0-or-later grant.

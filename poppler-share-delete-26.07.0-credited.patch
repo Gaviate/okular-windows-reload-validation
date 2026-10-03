@@ -1,0 +1,21 @@
+diff --git a/goo/gfile.cc b/goo/gfile.cc
+index 32e892b..5b51294 100644
+--- a/goo/gfile.cc
++++ b/goo/gfile.cc
+@@ -296,14 +296,14 @@ Goffset GooFile::size() const
+ 
+ std::unique_ptr<GooFile> GooFile::open(const std::string &fileName)
+ {
+-    HANDLE handle = CreateFileA(fileName.c_str(), GENERIC_READ, FILE_SHARE_READ | FILE_SHARE_WRITE, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
++    HANDLE handle = CreateFileA(fileName.c_str(), GENERIC_READ, FILE_SHARE_READ | FILE_SHARE_WRITE | FILE_SHARE_DELETE, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+ 
+     return handle == INVALID_HANDLE_VALUE ? std::unique_ptr<GooFile>() : std::unique_ptr<GooFile>(new GooFile(handle));
+ }
+ 
+ std::unique_ptr<GooFile> GooFile::open(const wchar_t *fileName)
+ {
+-    HANDLE handle = CreateFileW(fileName, GENERIC_READ, FILE_SHARE_READ | FILE_SHARE_WRITE, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
++    HANDLE handle = CreateFileW(fileName, GENERIC_READ, FILE_SHARE_READ | FILE_SHARE_WRITE | FILE_SHARE_DELETE, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+ 
+     return handle == INVALID_HANDLE_VALUE ? std::unique_ptr<GooFile>() : std::unique_ptr<GooFile>(new GooFile(handle));
+ }
