@@ -1,0 +1,79 @@
+{
+  "after_pixels": {
+    "blue_pixels": 153663,
+    "green_pixels": 0,
+    "height": 1200,
+    "pixel_bytes_sha256": "0b4bc54906d451297e15b63102c452b34b88f73bfa82a817a6bfe67779e35b00",
+    "red_pixels": 0,
+    "width": 661
+  },
+  "automatic_replacement_page1_pixels_passed": true,
+  "baseline_original_pixels_retained": false,
+  "control_extra_observation_ms": 0,
+  "delete_error": 0,
+  "deleted": true,
+  "expected_deletion": true,
+  "initial_pixels": {
+    "blue_pixels": 0,
+    "green_pixels": 0,
+    "height": 1200,
+    "pixel_bytes_sha256": "843b02b4ec5834d8dd71fa36a1236d1e1a5cb8ce7a06ab8285cf2a3a2957dc51",
+    "red_pixels": 159999,
+    "width": 675
+  },
+  "initial_rendered_pixels_passed": true,
+  "loaded_modules": {
+    "kcoreaddons": {
+      "intended_runtime_path_verified": true,
+      "relative_path": "KF6CoreAddons.dll",
+      "sha256": "e1602acda15e00ae4a8bfd324e48ba44fb03715c67233da85754132bcae5a19a"
+    },
+    "okularcore": {
+      "intended_runtime_path_verified": true,
+      "relative_path": "Okular6Core.dll",
+      "sha256": "468942d80bfa8c469c80c57bfce4d9f8f9b792ed03730239862f57d7284c1b16"
+    },
+    "okularpart": {
+      "intended_runtime_path_verified": true,
+      "relative_path": "kf6/parts/okularpart.dll",
+      "sha256": "a12ede15268974e7bd9e3287e11ce1ea86e6408415897e5d40710380cf044b82"
+    },
+    "pdf_generator": {
+      "intended_runtime_path_verified": true,
+      "relative_path": "okular_generators/okularGenerator_poppler.dll",
+      "sha256": "b6a56330b48747bf10fec48b3a5ed5e3bec4b130057cf0c4cc8234d83f0252d2"
+    },
+    "poppler": {
+      "intended_runtime_path_verified": true,
+      "relative_path": "poppler.dll",
+      "sha256": "afb6322293179a293fe5a23b2f11e63165290196139287096c14a7f0e0e713e4"
+    },
+    "qtcore": {
+      "intended_runtime_path_verified": true,
+      "relative_path": "Qt6Core.dll",
+      "sha256": "70c2a9c77e4c2e532cda51d997f02521f1ba911fb50c88a8efe1ad4c199d2975"
+    }
+  },
+  "observation": "Actual packaged Okular Part/PageView offscreen fixture-colored viewport pixels (threshold 500). Opened once; watcher automatically reopens. Page2 navigation occurs only after automatic page count and blue page1 pixels pass. Whole-page final generator completion is not asserted.",
+  "pages_after_replacement": 2,
+  "passed": true,
+  "profile_limit": "Qt Windows normal QStandardPaths may store metadata for synthetic fixtures; private profile isolation is not claimed.",
+  "qpa_platform": "offscreen",
+  "recreate_error": 0,
+  "recreated": true,
+  "recreation_delay_ms": 0,
+  "replacement_page2_pixels_after_navigation_passed": true,
+  "second_page_pixels": {
+    "blue_pixels": 153663,
+    "green_pixels": 153663,
+    "height": 1200,
+    "pixel_bytes_sha256": "d44ef0dbe74506ec97d7ac0de8296fe7fa4c7f92532207fc5d34f60d061575d9",
+    "red_pixels": 0,
+    "width": 661
+  },
+  "case": "candidate-unicode-0",
+  "unicode_path": true,
+  "fixture_filename": "fixture-candidate-unicode-0-資料-é.pdf",
+  "raw_source_result_sha256": "2304d10a4dbc7cc3ad66540620033526efae690194c84b336bb511be551a0791",
+  "publication_note": "Assertion/module/pixel fields unchanged; only case, Unicode, fixture basename and source digest metadata added."
+}

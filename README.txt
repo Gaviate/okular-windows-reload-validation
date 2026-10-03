@@ -107,3 +107,16 @@ The public request at
 https://discuss.kde.org/t/paid-request-okular-don-t-lock-file-for-overwrite/49519
 expresses EUR20 willingness to donate to KDE OR the fixer; its payment rail,
 reservation and acceptance are unknown. Cash received0; cash owed0.
+
+
+Additional pixel observations — 2026-10-03
+------------------------------------------
+A separate offscreen packaged Part/PageView test now observes actual blue
+first-page fixture pixels after automatic delete/recreate reload in four
+ASCII/Unicode x immediate/2000ms cases. Only afterward, intentional goToPage(2)
+shows green second-page fixture pixels. Four clean matched controls retain
+original red pixels with deletion error32/recreation error80. The assertion
+is fixture-colored viewport regions, not whole-page final render completion
+or unchanged-shell desktop output. The earlier 12 same-process dispatch cycles
+and all contributor attribution remain unchanged. See pixel-observations/README.txt
+for the source, 8 case receipts, 20 raw viewport PNGs, hashes and limits.
